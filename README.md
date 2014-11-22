@@ -21,3 +21,4 @@ The page class contains the defined properties of a page, and the constructors t
 When a request for a page of the story is made (by calling a method and passing in the page index), the Page object is 
 loaded and its properties populates the xml layout.
 
+Using of the Intent object to navigate between activities. Use finish() to stop current activity and return to previous activity.
