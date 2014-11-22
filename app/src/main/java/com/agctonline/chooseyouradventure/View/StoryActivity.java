@@ -43,7 +43,7 @@ public class StoryActivity extends Activity {
         Intent intentFromMainAct = getIntent();
         //do a ctrl+q to get the purpose of getIntent method.
         //it say "Return the intent that started this activity."
-        //the line above is basically grab the object and params
+        //the line above is basically grabbing the object and params
         //that was passed from the mainActivity
 
         mName = intentFromMainAct.getStringExtra(getString(R.string.key_name));
